@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0cc3ec, #8f4c8f, #1f1743);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            margin-bottom: 25px;
+            color: #000000;
+            letter-spacing: 1px;
+        }
+
+        a {
+            width: 300px;
+            text-decoration: none;
+            color: #1e293b;
+            background: white;
+            margin: 10px 0;
+            padding: 14px 18px;
+            border-radius: 12px;
+            font-weight: 500;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* colorful left borders */
+        a:nth-child(2)::before { background: linear-gradient(#ff6b6b, #ff4757); }
+        a:nth-child(3)::before { background: linear-gradient(#1dd1a1, #10ac84); }
+        a:nth-child(4)::before { background: linear-gradient(#54a0ff, #2e86de); }
+        a:nth-child(5)::before { background: linear-gradient(#f368e0, #e056fd); }
+        a:nth-child(6)::before { background: linear-gradient(#feca57, #ff9f43); }
+        a:nth-child(7)::before { background: linear-gradient(#48dbfb, #0abde3); }
+        a:nth-child(8)::before { background: linear-gradient(#5f27cd, #341f97); }
+        a:nth-child(9)::before { background: linear-gradient(#ff9ff3, #f368e0); }
+        a:nth-child(10)::before { background: linear-gradient(#00d2d3, #01a3a4); }
+        a:nth-child(11)::before { background: linear-gradient(#ff6b81, #ff4757); }
+        a:nth-child(12)::before { background: linear-gradient(#7bed9f, #2ed573); }
+        a:nth-child(13)::before { background: linear-gradient(#c0173f, #d52e39); }
+
+        a::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 6px;
+            border-radius: 12px 0 0 12px;
+        }
+
+        a span {
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        a:hover span {
+            transform: translateX(6px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Assignments</h1>
+    <a href="assignment2.html">Assignment 1 <span>→</span></a>
+    <a href="assignment3.html">Assignment 12 <span>→</span></a>
+    <a href="assignment4.html">Assignment 3 <span>→</span></a>
+    <a href="assignment5.html">Assignment 4 <span>→</span></a>
+    <a href="assignment6.html">Assignment 5 <span>→</span></a>
+    <a href="assignment7.html">Assignment 6 <span>→</span></a>
+    <a href="assignment8.html">Assignment 7 <span>→</span></a>
+    <a href="assignment9.html">Assignment 8 <span>→</span></a>
+    <a href="assignment10.html">Assignment 9 <span>→</span></a>
+    <a href="Books_Assignment11.xml">Assignment 10 <span>→</span></a>
+    <a href="cat_assignment12.xml">Assignment 11 <span>→</span></a>
+    <a href="students_assignment13.xml">Assignment 12 <span>→</span></a>
+
+</body>
+</html>
